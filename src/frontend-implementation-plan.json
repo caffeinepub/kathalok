@@ -1,0 +1,214 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "SamayYaan KathaLok Cultural Festival Webpage",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Create full-width hero section with culturally evocative background, headline, subheadline, tagline, scroll CTA, and warm gradient overlay",
+      "acceptanceCriteria": [
+        "Hero section spans full viewport width",
+        "Background image shows classical performance, heritage architecture, or festive atmosphere",
+        "All text elements (headline, subheadline, tagline) are visible and legible",
+        "Scroll CTA button is centered and functional",
+        "Warm gradient overlay is applied"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "create",
+          "description": "Create hero section component with full-width layout, headline 'SamayYaan presents KathaLok', subheadline 'Where Bharat's Culture Comes Alive', tagline 'SamayYaan's Annual Cultural Festival Celebrating India's Timeless Heritage', scroll CTA button labeled 'Discover KathaLok ↓', and semi-transparent warm gradient overlay. Use the generated hero background image at frontend/public/assets/generated/hero-background.dim_1920x1080.png as the background. Implement smooth scroll behavior for the CTA button."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render HeroSection component at the top of the main application layout to display the hero section as the first viewport element"
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Create bold, centered ticket booking CTA strip with headline, booking button, and event details placeholders",
+      "acceptanceCriteria": [
+        "CTA strip is full-width and visually prominent",
+        "Headline, button, and sub-text are centered",
+        "Placeholder text for date, venue, and city is present",
+        "Button has clear hover/active states"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/TicketCTA.tsx",
+          "operation": "create",
+          "description": "Create ticket booking CTA component with full-width strip layout, centered headline 'Be Part of the Living Heritage', prominent button labeled 'Book Your Tickets Now', and sub-text containing placeholder date, venue, and city information. Style with heritage-inspired colors (saffron, maroon, gold accents) and implement clear hover/active button states"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render TicketCTA component after HeroSection in the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Create Festival Highlights section with intro copy and 8 event type cards (icon, title, description)",
+      "acceptanceCriteria": [
+        "Section includes intro copy at the top",
+        "All 8 event types are displayed as cards",
+        "Each card shows an icon, title, and 2-line description",
+        "Cards are arranged in a grid or horizontal scroll layout",
+        "Layout is responsive on mobile devices"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/FestivalHighlights.tsx",
+          "operation": "create",
+          "description": "Create festival highlights section component with intro copy 'KathaLok bridges Ancient Bharat with contemporary expression — through voice, rhythm, story, and stage.' Display 8 event type cards in a responsive grid: (1) Talks & Dialogues using frontend/public/assets/generated/icon-talks.dim_128x128.png, (2) College Band Performances using frontend/public/assets/generated/icon-band.dim_128x128.png, (3) Solo Artist Performances using frontend/public/assets/generated/icon-solo.dim_128x128.png, (4) Book Launches using frontend/public/assets/generated/icon-books.dim_128x128.png, (5) Taal-Yudh using frontend/public/assets/generated/icon-taal.dim_128x128.png, (6) Sur-SamayYaan using frontend/public/assets/generated/icon-sur.dim_128x128.png, (7) Storytelling Performances using frontend/public/assets/generated/icon-story.dim_128x128.png, (8) NSD Theatrical Play using frontend/public/assets/generated/icon-theatre.dim_128x128.png. Each card includes icon, title, and 2-line description as specified in BuildRequest. Implement responsive grid that adapts to mobile screens"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render FestivalHighlights component after TicketCTA in the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Create Experience Zones section with intro text and 6 interactive zone tiles/image cards",
+      "acceptanceCriteria": [
+        "Section includes intro text",
+        "All 6 experience zones are displayed",
+        "Each zone is presented as an interactive tile or image card",
+        "Tiles have hover effects or visual feedback",
+        "Layout adapts to mobile screens"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ExperienceZones.tsx",
+          "operation": "create",
+          "description": "Create experience zones section component with intro text 'Step into India — one experience at a time.' Display 6 interactive zone cards using generated images: Ayurveda Workshops (frontend/public/assets/generated/ayurveda.dim_600x400.png), Attar & Fragrance Experience (frontend/public/assets/generated/attar.dim_600x400.png), Traditional Games of Bharat (frontend/public/assets/generated/games.dim_600x400.png), Brahmi Script Writing Demonstrations (frontend/public/assets/generated/brahmi.dim_600x400.png), Books & Literature Corner (frontend/public/assets/generated/literature.dim_600x400.png), Regional Food Stalls — A Culinary Map of India (frontend/public/assets/generated/food.dim_600x400.png). Implement hover effects and ensure responsive layout for mobile devices"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render ExperienceZones component after FestivalHighlights in the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Create Schedule/Program Highlights section with day-wise or time-slot program overview, timeline/table layout, and optional category filtering",
+      "acceptanceCriteria": [
+        "Schedule is organized by day or time slot",
+        "Uses placeholder content with clear labels",
+        "Timeline or table layout is clean and readable",
+        "Optional category filters are functional",
+        "Schedule is scrollable and responsive"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Schedule.tsx",
+          "operation": "create",
+          "description": "Create schedule section component with day-wise or time-slot based program overview using placeholder content. Implement clean timeline or table layout with optional category filtering (Talks / Music / Theatre / Zones). Ensure the schedule is scrollable and fully responsive on mobile devices"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render Schedule component after ExperienceZones in the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Create Participate/Newsletter section with two side-by-side forms: participation form and newsletter signup",
+      "acceptanceCriteria": [
+        "Two forms are displayed side-by-side on desktop",
+        "Participation form includes all specified fields",
+        "Newsletter form has email field and subscribe button",
+        "Subtext is displayed below forms",
+        "Forms stack vertically on mobile devices",
+        "Forms have validation and submission handling"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ParticipateSection.tsx",
+          "operation": "create",
+          "description": "Create participate/newsletter section component with two side-by-side forms. Left form: Participation Form with fields for name, email, area of interest dropdown (performer/volunteer/attendee), and message textarea. Right form: Newsletter Signup with email field and subscribe button. Include subtext 'Stay connected with India's cultural pulse' below the forms. Implement form validation and basic submission handlers. Forms should stack vertically on mobile devices"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render ParticipateSection component after Schedule in the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Create Closing/Acknowledgements section with mission statement, partner organization logos, and footer with branding, social links, and contact",
+      "acceptanceCriteria": [
+        "Section includes warm closing statement",
+        "All 4 organization logos are displayed with acknowledgement text",
+        "Footer contains SamayYaan branding",
+        "Social media links are present and functional",
+        "Contact information is included"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ClosingSection.tsx",
+          "operation": "create",
+          "description": "Create closing/acknowledgements section component with warm closing statement about KathaLok's mission. Display logos with acknowledgement text for: Ministry of Culture using frontend/public/assets/generated/logo-moc.dim_200x200.png, IGNCA using frontend/public/assets/generated/logo-ignca.dim_200x200.png, ASI using frontend/public/assets/generated/logo-asi.dim_200x200.png, and NSD using frontend/public/assets/generated/logo-nsd.dim_200x200.png. Include footer with SamayYaan branding, social media links (placeholder URLs), and contact information"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render ClosingSection component after ParticipateSection in the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Apply elegant, heritage-inspired design system with warm earth tone palette, serif/sans-serif typography, and classical Indian motif patterns",
+      "acceptanceCriteria": [
+        "Color palette uses specified warm earth tones consistently",
+        "Headings use elegant serif typography",
+        "Body text uses clean sans-serif typography",
+        "Classical Indian motifs appear as subtle background patterns",
+        "Design feels cohesive and heritage-inspired throughout"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Define global CSS custom properties for heritage-inspired color palette (saffron, deep maroon, ivory, gold accents, forest green). Import Google Fonts for Playfair Display (headings) and Lato or Inter (body text). Apply typography rules with serif headings and sans-serif body text. Set up base styles that support the heritage design system"
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Extend Tailwind configuration to include custom heritage color palette (saffron, maroon, ivory, gold, forest green), custom font families (Playfair Display for headings, Lato/Inter for body), and configure background image utilities for classical Indian motif patterns using frontend/public/assets/generated/pattern-rangoli.dim_800x800.png, frontend/public/assets/generated/pattern-mandala.dim_800x800.png, and frontend/public/assets/generated/pattern-blockprint.dim_800x800.png as watermark-style patterns"
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Ensure all sections are full-width, scroll-friendly, and fully mobile-responsive with appropriate breakpoints",
+      "acceptanceCriteria": [
+        "All sections span full viewport width",
+        "Smooth scrolling behavior is implemented",
+        "Layout adapts appropriately on tablet screens",
+        "Layout adapts appropriately on mobile screens",
+        "Content remains readable and accessible at all breakpoints"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Ensure main application layout container applies full-width styling (w-full, max-w-none) to all section components. Implement smooth scroll behavior using CSS scroll-behavior or React scroll utilities. Verify all sections are stacked vertically in proper order and render with full viewport width"
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Add global smooth scroll behavior rule (html { scroll-behavior: smooth; }). Define mobile-first responsive breakpoint utilities and ensure base styles support full-width layouts across all viewport sizes"
+        }
+      ]
+    }
+  ]
+}

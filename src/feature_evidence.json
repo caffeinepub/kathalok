@@ -1,0 +1,176 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-full-width-hero-section-with-a-culturally-evocative-background-image-headline-samayyaan-presents-kathalok-subheadline-where-bharat-s-culture-comes-alive-tagline-samayyaan-s-annual-cultural-festival-celebrating-india-s-timeless-heritage-scroll-cta-button-labeled-discover-kathalok-and-a-semi-transparent-warm-gradient-overlay-for-text-legibility",
+      "featureTitle": "Create a full-width hero section with a culturally evocative background image, headline 'SamayYaan presents KathaLok', subheadline 'Where Bharat's Culture Comes Alive', tagline 'SamayYaan's Annual Cultural Festival Celebrating India's Timeless Heritage', scroll CTA button labeled 'Discover KathaLok ↓', and a semi-transparent warm gradient overlay for text legibility",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-bold-centered-ticket-booking-cta-strip-with-headline-be-part-of-the-living-heritage-button-labeled-book-your-tickets-now-and-sub-text-with-date-venue-and-city-placeholders",
+      "featureTitle": "Create a bold, centered ticket booking CTA strip with headline 'Be Part of the Living Heritage', button labeled 'Book Your Tickets Now', and sub-text with date, venue, and city placeholders",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/TicketCTA.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-festival-highlights-section-with-intro-copy-kathalok-bridges-ancient-bharat-with-contemporary-expression-through-voice-rhythm-story-and-stage-display-8-event-types-as-icon-title-2-line-description-cards-1-talks-dialogues-speeches-and-discussions-by-respected-cultural-personalities-2-college-band-performances-live-musical-sets-by-student-bands-3-solo-artist-performances-individual-artists-across-classical-and-folk-genres-4-book-launches-new-titles-celebrating-indian-literature-history-and-culture-5-taal-yudh-the-battle-of-indian-percussionists-6-sur-samayyaan-sa-se-sargam-tak-a-musical-journey-tracing-the-evolution-of-indian-instruments-across-eras-7-storytelling-performances-oral-traditions-brought-to-life-on-stage-8-nsd-theatrical-play-a-dramatic-production-by-the-national-school-of-drama",
+      "featureTitle": "Create a Festival Highlights section with intro copy 'KathaLok bridges Ancient Bharat with contemporary expression — through voice, rhythm, story, and stage.' Display 8 event types as icon + title + 2-line description cards: (1) Talks & Dialogues - Speeches and discussions by respected cultural personalities, (2) College Band Performances - Live musical sets by student bands, (3) Solo Artist Performances - Individual artists across classical and folk genres, (4) Book Launches - New titles celebrating Indian literature, history, and culture, (5) Taal-Yudh - The battle of Indian percussionists, (6) Sur-SamayYaan: Sa Se Sargam Tak - A musical journey tracing the evolution of Indian instruments across eras, (7) Storytelling Performances - Oral traditions brought to life on stage, (8) NSD Theatrical Play - A dramatic production by the National School of Drama",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/FestivalHighlights.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-an-experience-zones-section-with-intro-step-into-india-one-experience-at-a-time-display-6-zones-as-interactive-tiles-or-image-cards-ayurveda-workshops-attar-fragrance-experience-traditional-games-of-bharat-brahmi-script-writing-demonstrations-books-literature-corner-regional-food-stalls-a-culinary-map-of-india",
+      "featureTitle": "Create an Experience Zones section with intro 'Step into India — one experience at a time.' Display 6 zones as interactive tiles or image cards: Ayurveda Workshops, Attar & Fragrance Experience, Traditional Games of Bharat, Brahmi Script Writing Demonstrations, Books & Literature Corner, Regional Food Stalls — A Culinary Map of India",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ExperienceZones.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-schedule-program-highlights-section-with-day-wise-or-time-slot-based-program-overview-using-placeholder-content-with-clear-labels-use-a-clean-timeline-or-table-layout-with-optional-category-filtering-talks-music-theatre-zones",
+      "featureTitle": "Create a Schedule/Program Highlights section with day-wise or time-slot based program overview using placeholder content with clear labels. Use a clean timeline or table layout with optional category filtering (Talks / Music / Theatre / Zones)",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Schedule.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-participate-newsletter-section-with-two-side-by-side-forms-1-participation-form-with-fields-for-name-email-area-of-interest-performer-volunteer-attendee-and-message-2-newsletter-signup-with-email-field-and-subscribe-button-include-subtext-stay-connected-with-india-s-cultural-pulse",
+      "featureTitle": "Create a Participate/Newsletter section with two side-by-side forms: (1) Participation Form with fields for name, email, area of interest (performer/volunteer/attendee), and message, (2) Newsletter Signup with email field and subscribe button. Include subtext 'Stay connected with India's cultural pulse'",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ParticipateSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-closing-acknowledgements-section-with-a-warm-closing-statement-about-kathalok-s-mission-logos-and-acknowledgement-text-for-ministry-of-culture-government-of-india-ignca-indira-gandhi-national-centre-for-the-arts-asi-archaeological-survey-of-india-and-nsd-national-school-of-drama-include-footer-with-samayyaan-branding-social-links-and-contact-information",
+      "featureTitle": "Create a Closing/Acknowledgements section with a warm closing statement about KathaLok's mission, logos and acknowledgement text for Ministry of Culture (Government of India), IGNCA (Indira Gandhi National Centre for the Arts), ASI (Archaeological Survey of India), and NSD (National School of Drama). Include footer with SamayYaan branding, social links, and contact information",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ClosingSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-elegant-heritage-inspired-design-system-throughout-the-webpage-using-warm-earth-tone-color-palette-saffron-deep-maroon-ivory-gold-accents-forest-green-elegant-serif-font-for-headings-playfair-display-or-similar-clean-sans-serif-for-body-text-lato-or-inter-and-subtle-classical-indian-motifs-rangoli-mandala-block-print-textures-as-watermark-style-patterns-in-section-backgrounds",
+      "featureTitle": "Apply elegant, heritage-inspired design system throughout the webpage using warm earth tone color palette (saffron, deep maroon, ivory, gold accents, forest green), elegant serif font for headings (Playfair Display or similar), clean sans-serif for body text (Lato or Inter), and subtle classical Indian motifs (rangoli, mandala, block print textures) as watermark-style patterns in section backgrounds",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-ensure-all-sections-are-full-width-scroll-friendly-and-fully-mobile-responsive-with-appropriate-breakpoints-for-tablet-and-mobile-devices",
+      "featureTitle": "Ensure all sections are full-width, scroll-friendly, and fully mobile-responsive with appropriate breakpoints for tablet and mobile devices",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

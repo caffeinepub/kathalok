@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Full webpage for SamayYaan's annual cultural festival 'KathaLok' - heritage-inspired design with warm earth tones, classical Indian motifs, and modern typography. Features hero banner, ticket booking CTA, festival highlights (talks, performances, book launches, theatrical plays), experience zones (Ayurveda, traditional games, food stalls), schedule, participation forms, and acknowledgements section. Built as React + TypeScript application with mobile-responsive design.",
+  "architectural_notes": [
+    "React + TypeScript application (not WordPress Elementor as requested)",
+    "Color palette: Saffron, deep maroon, ivory, gold accents, forest green",
+    "Typography: Playfair Display for headings, Lato/Inter for body",
+    "Full-width sections with mobile-responsive design",
+    "Classical Indian motifs: rangoli, mandala, block print textures as watermarks"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Culturally evocative hero background showing classical performance, heritage architecture, or festive atmosphere with warm lighting (hero-background.dim_1920x1080.png)\n- Icon illustration for Talks & Dialogues event - speech bubbles or microphone in heritage style (icon-talks.dim_128x128.png)\n- Icon illustration for College Band Performances - guitar or musical notes in modern style (icon-band.dim_128x128.png)\n- Icon illustration for Solo Artist Performances - classical musician silhouette (icon-solo.dim_128x128.png)\n- Icon illustration for Book Launches - open book with decorative border (icon-books.dim_128x128.png)\n- Icon illustration for Taal-Yudh - tabla or percussion instruments (icon-taal.dim_128x128.png)\n- Icon illustration for Sur-SamayYaan - collection of traditional Indian instruments (icon-sur.dim_128x128.png)\n- Icon illustration for Storytelling Performances - scroll or traditional storyteller silhouette (icon-story.dim_128x128.png)\n- Icon illustration for NSD Theatrical Play - theater masks in classical style (icon-theatre.dim_128x128.png)\n- Image card for Ayurveda Workshops showing herbs and traditional wellness elements (ayurveda.dim_600x400.png)\n- Image card for Attar & Fragrance Experience showing traditional perfume bottles and flowers (attar.dim_600x400.png)\n- Image card for Traditional Games of Bharat showing board games or outdoor activities (games.dim_600x400.png)\n- Image card for Brahmi Script Writing Demonstrations showing ancient script and writing tools (brahmi.dim_600x400.png)\n- Image card for Books & Literature Corner showing collection of Indian literature (literature.dim_600x400.png)\n- Image card for Regional Food Stalls showing variety of traditional Indian cuisine (food.dim_600x400.png)\n- Logo for Ministry of Culture, Government of India with official emblem (logo-moc.dim_200x200.png)\n- Logo for IGNCA (Indira Gandhi National Centre for the Arts) (logo-ignca.dim_200x200.png)\n- Logo for ASI (Archaeological Survey of India) with official emblem (logo-asi.dim_200x200.png)\n- Logo for NSD (National School of Drama) with official branding (logo-nsd.dim_200x200.png)\n- Rangoli pattern texture for section background in warm earth tones (pattern-rangoli.dim_800x800.png)\n- Mandala pattern texture for section background in subtle gold and ivory (pattern-mandala.dim_800x800.png)\n- Block print texture pattern in maroon and saffron tones (pattern-blockprint.dim_800x800.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-full-width-hero-section-with-a-culturally-evocative-background-image-headline-samayyaan-presents-kathalok-subheadline-where-bharat-s-culture-comes-alive-tagline-samayyaan-s-annual-cultural-festival-celebrating-india-s-timeless-heritage-scroll-cta-button-labeled-discover-kathalok-and-a-semi-transparent-warm-gradient-overlay-for-text-legibility",
+      "title": "Create a full-width hero section with a culturally evocative background image, headline 'SamayYaan presents KathaLok', subheadline 'Where Bharat's Culture Comes Alive', tagline 'SamayYaan's Annual Cultural Festival Celebrating India's Timeless Heritage', scroll CTA button labeled 'Discover KathaLok ↓', and a semi-transparent warm gradient overlay for text legibility",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-bold-centered-ticket-booking-cta-strip-with-headline-be-part-of-the-living-heritage-button-labeled-book-your-tickets-now-and-sub-text-with-date-venue-and-city-placeholders",
+      "title": "Create a bold, centered ticket booking CTA strip with headline 'Be Part of the Living Heritage', button labeled 'Book Your Tickets Now', and sub-text with date, venue, and city placeholders",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-festival-highlights-section-with-intro-copy-kathalok-bridges-ancient-bharat-with-contemporary-expression-through-voice-rhythm-story-and-stage-display-8-event-types-as-icon-title-2-line-description-cards-1-talks-dialogues-speeches-and-discussions-by-respected-cultural-personalities-2-college-band-performances-live-musical-sets-by-student-bands-3-solo-artist-performances-individual-artists-across-classical-and-folk-genres-4-book-launches-new-titles-celebrating-indian-literature-history-and-culture-5-taal-yudh-the-battle-of-indian-percussionists-6-sur-samayyaan-sa-se-sargam-tak-a-musical-journey-tracing-the-evolution-of-indian-instruments-across-eras-7-storytelling-performances-oral-traditions-brought-to-life-on-stage-8-nsd-theatrical-play-a-dramatic-production-by-the-national-school-of-drama",
+      "title": "Create a Festival Highlights section with intro copy 'KathaLok bridges Ancient Bharat with contemporary expression — through voice, rhythm, story, and stage.' Display 8 event types as icon + title + 2-line description cards: (1) Talks & Dialogues - Speeches and discussions by respected cultural personalities, (2) College Band Performances - Live musical sets by student bands, (3) Solo Artist Performances - Individual artists across classical and folk genres, (4) Book Launches - New titles celebrating Indian literature, history, and culture, (5) Taal-Yudh - The battle of Indian percussionists, (6) Sur-SamayYaan: Sa Se Sargam Tak - A musical journey tracing the evolution of Indian instruments across eras, (7) Storytelling Performances - Oral traditions brought to life on stage, (8) NSD Theatrical Play - A dramatic production by the National School of Drama",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-experience-zones-section-with-intro-step-into-india-one-experience-at-a-time-display-6-zones-as-interactive-tiles-or-image-cards-ayurveda-workshops-attar-fragrance-experience-traditional-games-of-bharat-brahmi-script-writing-demonstrations-books-literature-corner-regional-food-stalls-a-culinary-map-of-india",
+      "title": "Create an Experience Zones section with intro 'Step into India — one experience at a time.' Display 6 zones as interactive tiles or image cards: Ayurveda Workshops, Attar & Fragrance Experience, Traditional Games of Bharat, Brahmi Script Writing Demonstrations, Books & Literature Corner, Regional Food Stalls — A Culinary Map of India",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-schedule-program-highlights-section-with-day-wise-or-time-slot-based-program-overview-using-placeholder-content-with-clear-labels-use-a-clean-timeline-or-table-layout-with-optional-category-filtering-talks-music-theatre-zones",
+      "title": "Create a Schedule/Program Highlights section with day-wise or time-slot based program overview using placeholder content with clear labels. Use a clean timeline or table layout with optional category filtering (Talks / Music / Theatre / Zones)",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-participate-newsletter-section-with-two-side-by-side-forms-1-participation-form-with-fields-for-name-email-area-of-interest-performer-volunteer-attendee-and-message-2-newsletter-signup-with-email-field-and-subscribe-button-include-subtext-stay-connected-with-india-s-cultural-pulse",
+      "title": "Create a Participate/Newsletter section with two side-by-side forms: (1) Participation Form with fields for name, email, area of interest (performer/volunteer/attendee), and message, (2) Newsletter Signup with email field and subscribe button. Include subtext 'Stay connected with India's cultural pulse'",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-closing-acknowledgements-section-with-a-warm-closing-statement-about-kathalok-s-mission-logos-and-acknowledgement-text-for-ministry-of-culture-government-of-india-ignca-indira-gandhi-national-centre-for-the-arts-asi-archaeological-survey-of-india-and-nsd-national-school-of-drama-include-footer-with-samayyaan-branding-social-links-and-contact-information",
+      "title": "Create a Closing/Acknowledgements section with a warm closing statement about KathaLok's mission, logos and acknowledgement text for Ministry of Culture (Government of India), IGNCA (Indira Gandhi National Centre for the Arts), ASI (Archaeological Survey of India), and NSD (National School of Drama). Include footer with SamayYaan branding, social links, and contact information",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-elegant-heritage-inspired-design-system-throughout-the-webpage-using-warm-earth-tone-color-palette-saffron-deep-maroon-ivory-gold-accents-forest-green-elegant-serif-font-for-headings-playfair-display-or-similar-clean-sans-serif-for-body-text-lato-or-inter-and-subtle-classical-indian-motifs-rangoli-mandala-block-print-textures-as-watermark-style-patterns-in-section-backgrounds",
+      "title": "Apply elegant, heritage-inspired design system throughout the webpage using warm earth tone color palette (saffron, deep maroon, ivory, gold accents, forest green), elegant serif font for headings (Playfair Display or similar), clean sans-serif for body text (Lato or Inter), and subtle classical Indian motifs (rangoli, mandala, block print textures) as watermark-style patterns in section backgrounds",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-all-sections-are-full-width-scroll-friendly-and-fully-mobile-responsive-with-appropriate-breakpoints-for-tablet-and-mobile-devices",
+      "title": "Ensure all sections are full-width, scroll-friendly, and fully mobile-responsive with appropriate breakpoints for tablet and mobile devices",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with cultural background image, headline 'SamayYaan presents KathaLok', scroll CTA",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Ticket booking CTA strip with headline, button, date/venue placeholders",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Festival highlights section with 8 event types displayed as icon + title + description cards",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Experience zones section with 6 interactive tiles for cultural activities",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Schedule/program highlights with day-wise timeline and optional category filtering",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Dual forms section: participation form and newsletter signup",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Closing/acknowledgements section with logos for Ministry of Culture, IGNCA, ASI, NSD and footer",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "KathaLok",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

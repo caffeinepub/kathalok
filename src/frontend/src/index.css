@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Lato:wght@300;400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.625rem;
+        
+        /* Heritage Color Palette - Light Mode */
+        --saffron: 0.75 0.15 50;
+        --maroon: 0.25 0.12 15;
+        --ivory: 0.96 0.02 80;
+        --gold: 0.70 0.18 70;
+        --forest: 0.35 0.08 140;
+        
+        /* Semantic Tokens */
+        --background: 0.98 0.01 80;
+        --foreground: 0.20 0.10 15;
+        --card: 1 0 0;
+        --card-foreground: 0.145 0 0;
+        --popover: 1 0 0;
+        --popover-foreground: 0.145 0 0;
+        --primary: 0.25 0.12 15;
+        --primary-foreground: 0.96 0.02 80;
+        --secondary: 0.75 0.15 50;
+        --secondary-foreground: 0.25 0.12 15;
+        --muted: 0.94 0.02 80;
+        --muted-foreground: 0.45 0.08 140;
+        --accent: 0.70 0.18 70;
+        --accent-foreground: 0.25 0.12 15;
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 0.985 0 0;
+        --border: 0.85 0.05 70;
+        --input: 0.85 0.05 70;
+        --ring: 0.70 0.18 70;
+        --chart-1: 0.75 0.15 50;
+        --chart-2: 0.70 0.18 70;
+        --chart-3: 0.35 0.08 140;
+        --chart-4: 0.25 0.12 15;
+        --chart-5: 0.96 0.02 80;
+    }
+
+    .dark {
+        --background: 0.15 0.08 15;
+        --foreground: 0.96 0.02 80;
+        --card: 0.20 0.10 15;
+        --card-foreground: 0.96 0.02 80;
+        --popover: 0.20 0.10 15;
+        --popover-foreground: 0.96 0.02 80;
+        --primary: 0.75 0.15 50;
+        --primary-foreground: 0.25 0.12 15;
+        --secondary: 0.25 0.12 15;
+        --secondary-foreground: 0.96 0.02 80;
+        --muted: 0.25 0.10 15;
+        --muted-foreground: 0.65 0.08 140;
+        --accent: 0.70 0.18 70;
+        --accent-foreground: 0.96 0.02 80;
+        --destructive: 0.704 0.191 22.216;
+        --destructive-foreground: 0.96 0.02 80;
+        --border: 0.30 0.08 15;
+        --input: 0.30 0.08 15;
+        --ring: 0.70 0.18 70;
+        --chart-1: 0.75 0.15 50;
+        --chart-2: 0.70 0.18 70;
+        --chart-3: 0.35 0.08 140;
+        --chart-4: 0.96 0.02 80;
+        --chart-5: 0.25 0.12 15;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+@layer utilities {
+    .font-playfair {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .font-lato {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .bg-pattern-rangoli {
+        background-image: url('/assets/generated/pattern-rangoli.dim_800x800.png');
+    }
+    
+    .bg-pattern-mandala {
+        background-image: url('/assets/generated/pattern-mandala.dim_800x800.png');
+    }
+    
+    .bg-pattern-blockprint {
+        background-image: url('/assets/generated/pattern-blockprint.dim_800x800.png');
+    }
+}

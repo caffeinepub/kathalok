@@ -1,0 +1,240 @@
+{
+  "kind": "build_request",
+  "title": "Build SamayYaan KathaLok cultural festival webpage",
+  "projectName": "KathaLok Festival",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a full-width hero section with a culturally evocative background image, headline 'SamayYaan presents KathaLok', subheadline 'Where Bharat's Culture Comes Alive', tagline 'SamayYaan's Annual Cultural Festival Celebrating India's Timeless Heritage', scroll CTA button labeled 'Discover KathaLok ↓', and a semi-transparent warm gradient overlay for text legibility",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "SECTION 1 — Hero (Full Width)",
+          "Headline: *\"SamayYaan presents KathaLok\"*",
+          "Subheadline: *\"Where Bharat's Culture Comes Alive\"*"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section spans full viewport width",
+        "Background image shows classical performance, heritage architecture, or festive atmosphere",
+        "All text elements (headline, subheadline, tagline) are visible and legible",
+        "Scroll CTA button is centered and functional",
+        "Warm gradient overlay is applied"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create a bold, centered ticket booking CTA strip with headline 'Be Part of the Living Heritage', button labeled 'Book Your Tickets Now', and sub-text with date, venue, and city placeholders",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "SECTION 2 — Ticket Booking CTA",
+          "Headline: *\"Be Part of the Living Heritage\"*",
+          "Button: *\"Book Your Tickets Now\"*"
+        ]
+      },
+      "acceptanceCriteria": [
+        "CTA strip is full-width and visually prominent",
+        "Headline, button, and sub-text are centered",
+        "Placeholder text for date, venue, and city is present",
+        "Button has clear hover/active states"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a Festival Highlights section with intro copy 'KathaLok bridges Ancient Bharat with contemporary expression — through voice, rhythm, story, and stage.' Display 8 event types as icon + title + 2-line description cards: (1) Talks & Dialogues - Speeches and discussions by respected cultural personalities, (2) College Band Performances - Live musical sets by student bands, (3) Solo Artist Performances - Individual artists across classical and folk genres, (4) Book Launches - New titles celebrating Indian literature, history, and culture, (5) Taal-Yudh - The battle of Indian percussionists, (6) Sur-SamayYaan: Sa Se Sargam Tak - A musical journey tracing the evolution of Indian instruments across eras, (7) Storytelling Performances - Oral traditions brought to life on stage, (8) NSD Theatrical Play - A dramatic production by the National School of Drama",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "SECTION 3 — Festival Highlights",
+          "Display the following as icon + title + 2-line description cards"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section includes intro copy at the top",
+        "All 8 event types are displayed as cards",
+        "Each card shows an icon, title, and 2-line description",
+        "Cards are arranged in a grid or horizontal scroll layout",
+        "Layout is responsive on mobile devices"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create an Experience Zones section with intro 'Step into India — one experience at a time.' Display 6 zones as interactive tiles or image cards: Ayurveda Workshops, Attar & Fragrance Experience, Traditional Games of Bharat, Brahmi Script Writing Demonstrations, Books & Literature Corner, Regional Food Stalls — A Culinary Map of India",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "SECTION 4 — Experience Zones",
+          "Display as interactive tiles or image cards"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section includes intro text",
+        "All 6 experience zones are displayed",
+        "Each zone is presented as an interactive tile or image card",
+        "Tiles have hover effects or visual feedback",
+        "Layout adapts to mobile screens"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a Schedule/Program Highlights section with day-wise or time-slot based program overview using placeholder content with clear labels. Use a clean timeline or table layout with optional category filtering (Talks / Music / Theatre / Zones)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "SECTION 5 — Schedule / Program Highlights",
+          "Filter by category optional (Talks / Music / Theatre / Zones)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Schedule is organized by day or time slot",
+        "Uses placeholder content with clear labels",
+        "Timeline or table layout is clean and readable",
+        "Optional category filters are functional",
+        "Schedule is scrollable and responsive"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Create a Participate/Newsletter section with two side-by-side forms: (1) Participation Form with fields for name, email, area of interest (performer/volunteer/attendee), and message, (2) Newsletter Signup with email field and subscribe button. Include subtext 'Stay connected with India's cultural pulse'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "SECTION 6 — Participate / Newsletter",
+          "Two side-by-side forms",
+          "Subtext: *\"Stay connected with India's cultural pulse\"*"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Two forms are displayed side-by-side on desktop",
+        "Participation form includes all specified fields",
+        "Newsletter form has email field and subscribe button",
+        "Subtext is displayed below forms",
+        "Forms stack vertically on mobile devices",
+        "Forms have validation and submission handling"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Create a Closing/Acknowledgements section with a warm closing statement about KathaLok's mission, logos and acknowledgement text for Ministry of Culture (Government of India), IGNCA (Indira Gandhi National Centre for the Arts), ASI (Archaeological Survey of India), and NSD (National School of Drama). Include footer with SamayYaan branding, social links, and contact information",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "SECTION 7 — Closing / Acknowledgements",
+          "Footer with SamayYaan branding, social links, and contact"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section includes warm closing statement",
+        "All 4 organization logos are displayed with acknowledgement text",
+        "Footer contains SamayYaan branding",
+        "Social media links are present and functional",
+        "Contact information is included"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Apply elegant, heritage-inspired design system throughout the webpage using warm earth tone color palette (saffron, deep maroon, ivory, gold accents, forest green), elegant serif font for headings (Playfair Display or similar), clean sans-serif for body text (Lato or Inter), and subtle classical Indian motifs (rangoli, mandala, block print textures) as watermark-style patterns in section backgrounds",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Color palette: Saffron, deep maroon, ivory, gold accents, forest green",
+          "Fonts: Elegant serif for headings",
+          "Motifs: Subtle watermark-style Indian patterns"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color palette uses specified warm earth tones consistently",
+        "Headings use elegant serif typography",
+        "Body text uses clean sans-serif typography",
+        "Classical Indian motifs appear as subtle background patterns",
+        "Design feels cohesive and heritage-inspired throughout"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Ensure all sections are full-width, scroll-friendly, and fully mobile-responsive with appropriate breakpoints for tablet and mobile devices",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "All sections should be full-width, scroll-friendly, and mobile-responsive"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All sections span full viewport width",
+        "Smooth scrolling behavior is implemented",
+        "Layout adapts appropriately on tablet screens",
+        "Layout adapts appropriately on mobile screens",
+        "Content remains readable and accessible at all breakpoints"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use React with TypeScript as the frontend framework",
+    "Apply Tailwind CSS for styling",
+    "All sections must be full-width and responsive",
+    "Design must follow specified color palette: saffron, deep maroon, ivory, gold accents, forest green"
+  ],
+  "nonGoals": [
+    "WordPress or Elementor-specific implementation",
+    "Backend functionality for form submissions",
+    "Real-time ticket booking system integration",
+    "Database storage for participant or newsletter data",
+    "Live schedule updates or admin panel"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Culturally evocative hero background showing classical performance, heritage architecture, or festive atmosphere with warm lighting (hero-background.dim_1920x1080.png)",
+      "Icon illustration for Talks & Dialogues event - speech bubbles or microphone in heritage style (icon-talks.dim_128x128.png)",
+      "Icon illustration for College Band Performances - guitar or musical notes in modern style (icon-band.dim_128x128.png)",
+      "Icon illustration for Solo Artist Performances - classical musician silhouette (icon-solo.dim_128x128.png)",
+      "Icon illustration for Book Launches - open book with decorative border (icon-books.dim_128x128.png)",
+      "Icon illustration for Taal-Yudh - tabla or percussion instruments (icon-taal.dim_128x128.png)",
+      "Icon illustration for Sur-SamayYaan - collection of traditional Indian instruments (icon-sur.dim_128x128.png)",
+      "Icon illustration for Storytelling Performances - scroll or traditional storyteller silhouette (icon-story.dim_128x128.png)",
+      "Icon illustration for NSD Theatrical Play - theater masks in classical style (icon-theatre.dim_128x128.png)",
+      "Image card for Ayurveda Workshops showing herbs and traditional wellness elements (ayurveda.dim_600x400.png)",
+      "Image card for Attar & Fragrance Experience showing traditional perfume bottles and flowers (attar.dim_600x400.png)",
+      "Image card for Traditional Games of Bharat showing board games or outdoor activities (games.dim_600x400.png)",
+      "Image card for Brahmi Script Writing Demonstrations showing ancient script and writing tools (brahmi.dim_600x400.png)",
+      "Image card for Books & Literature Corner showing collection of Indian literature (literature.dim_600x400.png)",
+      "Image card for Regional Food Stalls showing variety of traditional Indian cuisine (food.dim_600x400.png)",
+      "Logo for Ministry of Culture, Government of India with official emblem (logo-moc.dim_200x200.png)",
+      "Logo for IGNCA (Indira Gandhi National Centre for the Arts) (logo-ignca.dim_200x200.png)",
+      "Logo for ASI (Archaeological Survey of India) with official emblem (logo-asi.dim_200x200.png)",
+      "Logo for NSD (National School of Drama) with official branding (logo-nsd.dim_200x200.png)",
+      "Rangoli pattern texture for section background in warm earth tones (pattern-rangoli.dim_800x800.png)",
+      "Mandala pattern texture for section background in subtle gold and ivory (pattern-mandala.dim_800x800.png)",
+      "Block print texture pattern in maroon and saffron tones (pattern-blockprint.dim_800x800.png)"
+    ],
+    "edits": []
+  }
+}

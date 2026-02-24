@@ -1,0 +1,62 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-24T05:05:37.314Z",
+  "summary": "The implementation successfully addresses all 9 requirements. The React + TypeScript application with Tailwind CSS includes all requested sections: hero with cultural background and gradient overlay, ticket booking CTA, festival highlights with 8 event cards, experience zones with 6 interactive tiles, schedule with filtering, dual participation/newsletter forms, closing section with partner logos and footer. The heritage-inspired design system uses the specified color palette (saffron, maroon, ivory, gold, forest green), typography (Playfair Display for headings, Lato for body), and classical Indian motifs. All sections are full-width and mobile-responsive.",
+  "missing_requirements": [],
+  "hallucinated_features": [
+    {
+      "description": "Backend canister implementation in backend/main.mo",
+      "reason": "BuildRequest explicitly lists 'Backend functionality for form submissions' and 'Database storage for participant or newsletter data' as non-goals, yet a backend canister file was created",
+      "evidence": [
+        "backend/main.mo"
+      ]
+    },
+    {
+      "description": "Internet Identity authentication integration",
+      "reason": "No authentication or identity management was requested in the BuildRequest. The hooks for Internet Identity (useInternetIdentity, useActor) and associated authentication logic were not part of any requirement",
+      "evidence": [
+        "frontend/src/hooks/useInternetIdentity.ts",
+        "frontend/src/hooks/useActor.ts"
+      ]
+    },
+    {
+      "description": "QueryClient and React Query setup for backend operations",
+      "reason": "While React Query setup itself is reasonable for a React app, it appears to be configured for backend data operations when the BuildRequest explicitly states all content should be static and client-side rendered",
+      "evidence": [
+        "frontend/src/main.tsx",
+        "frontend/src/hooks/useActor.ts"
+      ]
+    },
+    {
+      "description": "Caffeine attribution in footer",
+      "reason": "The footer includes attribution text and links to 'Caffeine' which was not mentioned anywhere in the BuildRequest requirements or constraints",
+      "evidence": [
+        "frontend/src/components/ClosingSection.tsx"
+      ]
+    }
+  ],
+  "confidence": 0.92,
+  "changed_files": [
+    "all_files_summary.json",
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/ClosingSection.tsx",
+    "frontend/src/components/ExperienceZones.tsx",
+    "frontend/src/components/FestivalHighlights.tsx",
+    "frontend/src/components/HeroSection.tsx",
+    "frontend/src/components/ParticipateSection.tsx",
+    "frontend/src/components/Schedule.tsx",
+    "frontend/src/components/TicketCTA.tsx",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

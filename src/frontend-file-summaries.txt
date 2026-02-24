@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders all sections of the KathaLok festival webpage in sequence: hero, ticket CTA, festival highlights, experience zones, schedule, participation forms, and closing/acknowledgements.",
+  "frontend/src/components/HeroSection.tsx": "Full-width hero section with culturally evocative background image, headline \"SamayYaan presents KathaLok\", subheadline, tagline, warm gradient overlay, and smooth scroll CTA button.",
+  "frontend/src/components/TicketCTA.tsx": "Bold, centered ticket booking CTA strip with headline \"Be Part of the Living Heritage\", prominent booking button, and event details (date, venue, city).",
+  "frontend/src/components/FestivalHighlights.tsx": "Festival highlights section displaying 8 event types (talks, performances, book launches, theatrical plays) as icon + title + description cards in a responsive grid with intro copy.",
+  "frontend/src/components/ExperienceZones.tsx": "Experience zones section with 6 interactive image cards (Ayurveda, Attar, Traditional Games, Brahmi Script, Literature, Food) featuring hover effects and responsive layout.",
+  "frontend/src/components/Schedule.tsx": "Program schedule section with day-wise tabs (3 days), category filtering (Talks/Music/Theatre/Zones), and timeline layout showing event times and venues.",
+  "frontend/src/components/ParticipateSection.tsx": "Dual forms section with participation form (name, email, interest, message) and newsletter signup, both with validation and toast notifications.",
+  "frontend/src/components/ClosingSection.tsx": "Closing section with mission statement, partner organization logos (Ministry of Culture, IGNCA, ASI, NSD), and footer with SamayYaan branding, social links, contact info, and Caffeine attribution.",
+  "frontend/src/index.css": "Global styles with heritage-inspired OKLCH color palette (saffron, maroon, ivory, gold, forest green), Google Fonts imports (Playfair Display, Lato), smooth scroll behavior, and classical Indian pattern utilities.",
+  "frontend/tailwind.config.js": "Extended Tailwind configuration with custom heritage color palette, font families (Playfair Display for headings, Lato for body), and design tokens for the KathaLok cultural festival theme.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as backend has no data operations; all content is static and rendered client-side."
+}
